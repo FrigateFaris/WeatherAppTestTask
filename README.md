@@ -1,44 +1,28 @@
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           [--config-env=<name>=<envvar>] <command> [<args>]
-
-These are common Git commands used in various situations:
-
-start a working area (see also: git help tutorial)
-   clone     Clone a repository into a new directory
-   init      Create an empty Git repository or reinitialize an existing one
-
-work on the current change (see also: git help everyday)
-   add       Add file contents to the index
-   mv        Move or rename a file, a directory, or a symlink
-   restore   Restore working tree files
-   rm        Remove files from the working tree and from the index
-
-examine the history and state (see also: git help revisions)
-   bisect    Use binary search to find the commit that introduced a bug
-   diff      Show changes between commits, commit and working tree, etc
-   grep      Print lines matching a pattern
-   log       Show commit logs
-   show      Show various types of objects
-   status    Show the working tree status
-
-grow, mark and tweak your common history
-   branch    List, create, or delete branches
-   commit    Record changes to the repository
-   merge     Join two or more development histories together
-   rebase    Reapply commits on top of another base tip
-   reset     Reset current HEAD to the specified state
-   switch    Switch branches
-   tag       Create, list, delete or verify a tag object signed with GPG
-
-collaborate (see also: git help workflows)
-   fetch     Download objects and refs from another repository
-   pull      Fetch from and integrate with another repository or a local branch
-   push      Update remote refs along with associated objects
-
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прогноз погоды</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Проект "web-приложение прогноза погоды"</h1>
+    <h2>Осуществленный функционал</h2>
+    <ul>
+        <li>Получение прогноза погоды и вывод доп данных (влажность, скорость ветра и т.п.).</li>
+        <li>Прогноз погоды на 5 дней.</li>
+        <li>Вывод данных в удобно читаемом формате.</li>
+    </ul>
+    <p>В целях, так же осуществить доп функционал, который указывался в тз. Выполнен минимальный функционал, так как дедлайн был короткий.</p>
+    <h2>Технологии при разработке</h2>
+    <ul>
+        <li>Языки: Python, JavaScript</li>
+        <li>Фреймворки: Django</li>
+        <li>Базы данных: PostgreSQL (в перспективе использования)</li>
+        <li>Языки разметки: HTML</li>
+        <li>Стилизация: CSS</li>
+    </ul>
+    <p>Визуальная часть web-приожения (верстка), взята из чужого проекта в github.</p>
+</body>
+</html>
